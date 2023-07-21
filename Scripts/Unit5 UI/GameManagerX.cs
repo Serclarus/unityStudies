@@ -88,5 +88,6 @@ public class GameManagerX : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
+    //Updates
     //Timer Added
 }

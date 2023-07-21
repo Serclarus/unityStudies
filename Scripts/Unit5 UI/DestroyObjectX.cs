@@ -9,5 +9,5 @@ public class DestroyObjectX : MonoBehaviour
         Destroy(gameObject, 2); // destroy particle after 2 seconds
     }
 
-
+    //Updates
 }
