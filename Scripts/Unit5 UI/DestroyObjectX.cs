@@ -10,4 +10,5 @@ public class DestroyObjectX : MonoBehaviour
     }
 
     //Updates
+   //should be updated soon
 }
