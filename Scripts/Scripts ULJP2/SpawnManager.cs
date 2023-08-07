@@ -22,6 +22,7 @@ public class SpawnManager : MonoBehaviour
 
     void SpawnObstacles()
     {
+        // Spawns Obstacles
         if (characterController.gameOver == false)
         {
             Instantiate(obstaclePrefab, spawnPoint, obstaclePrefab.transform.rotation);
