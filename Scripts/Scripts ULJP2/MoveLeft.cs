@@ -10,12 +10,14 @@ public class MoveLeft : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // Finds the CharacterController script in player
         characterControllerScript = GameObject.Find("Player").GetComponent<CharacterController>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        // Makes objects move to the left
         if (characterControllerScript.gameOver == false)
         {
             transform.Translate(speed * Time.deltaTime * Vector3.left);
