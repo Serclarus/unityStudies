@@ -10,7 +10,7 @@ public class PlayerControllerX : MonoBehaviour
 
     void Start()
     {
-
+        //Fonctions that will execute at start of the scene
     }
 
     void FixedUpdate()
